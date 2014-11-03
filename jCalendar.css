@@ -1,0 +1,30 @@
+#jCalendarBox {border: 1px solid #CCC;border-radius: 10px;height: 235px;}
+
+#jCalendarBox .jCalendarTopBox {height: 64px;margin: 5px;}
+
+#jCalendarBox .jCalendarDatepicker {border-top:1px dashed #CCC;margin:2px;overflow:hidden;}
+
+#jCalendarBox .jCalendarDatepicker .jCalendarNavBox {position:relative;margin:1px 1px;}
+#jCalendarBox .jCalendarDatepicker .jCalendarNavMonthPrev {position:absolute;top:0;bottom:0;left:0;cursor:pointer;}
+#jCalendarBox .jCalendarDatepicker .jCalendarNavMonthPrev img {padding:5px 0 0 0;}
+#jCalendarBox .jCalendarDatepicker .jCalendarNavBox .jCalendarNavMonthCaptionBox {text-align:center;margin:0 10px;font-size:18px;font-weight:bold;cursor:default;}
+#jCalendarBox .jCalendarDatepicker .jCalendarNavBox .jCalendarNavMonthNext {position:absolute;top:0;bottom:0;right:0;cursor:pointer;}
+#jCalendarBox .jCalendarDatepicker .jCalendarNavBox .jCalendarNavMonthNext img {padding:5px 0 0 0;}
+
+
+#jCalendarBox .jCalendarDatepicker .jCalendarMonthBox {}
+#jCalendarBox .jCalendarDatepicker .jCalendarMonthBox .jCalendarMonth {}
+
+#jCalendarBox .jCalendarDatepicker .jCalendarMonthBox .jCalendarMonth .jCalendarDow {}
+#jCalendarBox .jCalendarDatepicker .jCalendarMonthBox .jCalendarMonth .jCalendarDow .jCalendarDowItem {font-size:14px;font-weight:bold;float:left;width:14.2857%;text-align:center;cursor:default;}
+
+#jCalendarBox .jCalendarDatepicker .jCalendarMonthBox .jCalendarMonth .jCalendarDays {}
+#jCalendarBox .jCalendarDatepicker .jCalendarMonthBox .jCalendarMonth .jCalendarDays .jCalendarWeek {}
+#jCalendarBox .jCalendarDatepicker .jCalendarMonthBox .jCalendarMonth .jCalendarDays .jCalendarWeek .jCalendarDay {cursor:pointer;float:left;width:14.2857%;text-align:center;font-size:16px;border-radius:10px;}
+#jCalendarBox .jCalendarDatepicker .jCalendarMonthBox .jCalendarMonth .jCalendarDays .jCalendarWeek .jCalendarDay:hover {background:#CCC;}
+#jCalendarBox .jCalendarDatepicker .jCalendarMonthBox .jCalendarMonth .jCalendarDays .jCalendarWeek .jCalendarDayActive {background:#489C25;font-weight:bold;}
+#jCalendarBox .jCalendarDatepicker .jCalendarMonthBox .jCalendarMonth .jCalendarDays .jCalendarWeek .jCalendarDaySelected {background:#A29B9B;font-weight:bold;}
+#jCalendarBox .jCalendarDatepicker .jCalendarMonthBox .jCalendarMonth .jCalendarDays .jCalendarWeek .jCalendarDayEvent {background:#E03636;}
+#jCalendarBox .jCalendarDatepicker .jCalendarMonthBox .jCalendarMonth .jCalendarDays .jCalendarWeek .jCalendarDayEventSelected {background: #E03636;font-weight: bold;}
+#jCalendarBox .jCalendarDatepicker .jCalendarMonthBox .jCalendarMonth .jCalendarDays .jCalendarWeek .jCalendarDayOther {color:#999;}
+#jCalendarBox .jCalendarDatepicker .jCalendarMonthBox .jCalendarMonth .jCalendarDays .jCalendarWeek .jCalendarDayBlank {}
